@@ -1,10 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inline{
+    display: inline-flex;
+}
 .card{
     border: 1px solid black;
 }
 .card {
     width: 350px;
     padding: 25px;
-    display: flex;
+    margin: .6px .5px;
+    /*margin-top: .6px;*/
+    /*margin-right: ;*/
+    display: inline-flex;
     justify-content: center;
     position: relative;
 }
